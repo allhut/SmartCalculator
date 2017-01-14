@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	make/makefile	/^BIN=..\/bin\/$/;"	m
+CC	make/makefile	/^CC=g++$/;"	m
+CFLAGS	make/makefile	/^CFLAGS=-c -Wall -g$/;"	m
+FLAGS	make/makefile	/^FLAGS=-o$/;"	m
+INCLUDE	make/makefile	/^INCLUDE=-I..\/inc\/$/;"	m
+OBJ	make/makefile	/^OBJ=..\/obj\/$/;"	m
+PROj_SSE	inc/header.h	5;"	d
+SRC	make/makefile	/^SRC=..\/src\/$/;"	m
+applyOperation	src/calculator.cpp	/^int applyOperation (char op, int b, int a){$/;"	f
+calc	inc/calc.h	/^calc::calc(){$/;"	f	class:calc
+calc	inc/calc.h	/^class calc {$/;"	c
+evaluateString	src/calculator.cpp	/^int evaluateString(char *p_str){$/;"	f
+exitOp	inc/calc.h	/^int calc::exitOp(){$/;"	f	class:calc
+getString	inc/calc.h	/^void calc::getString(){$/;"	f	class:calc
+hasPrecedence	src/calculator.cpp	/^bool hasPrecedence(char op1, char op2){$/;"	f
+main	src/main.cpp	/^int main(){$/;"	f
+p_str	inc/calc.h	/^    char *p_str;  $/;"	m	class:calc
+printOutput	inc/calc.h	/^void calc::printOutput(){$/;"	f	class:calc
